@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PicZip IN - Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #1a1a1a;
+            margin-bottom: 10px;
+            font-size: 28px;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #333;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+        h3 {
+            color: #555;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        ul, ol {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-left: 4px solid #007bff;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+                font-size: 14px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            h2 {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p><strong>Last Updated:</strong> October 28, 2025</p>
+    
+    <div class="highlight">
+        <strong>Core Principle:</strong> PicZip IN processes images locally on your device. Image processing happens entirely offline, and processed images are stored only where you choose to save them.
+    </div>
+    
+    <div class="section">
+        <h2>1. Device Identifiers and Advertising IDs</h2>
+        <p>For advertising purposes, the app may collect:</p>
+        <ul>
+            <li><strong>Google Advertising ID (GAID)</strong> - Used for personalized and non-personalized advertising</li>
+            <li><strong>Application Instance ID</strong> - Anonymous identifier for app analytics</li>
+        </ul>
+        <p>These identifiers are used solely for advertising purposes through third-party ad networks integrated via TopOn SDK. You can reset your advertising ID at any time in your device settings.</p>
+    </div>
+    
+    <div class="section">
+        <h2>2. Runtime Permissions</h2>
+        <p>The app requests the following permissions:</p>
+        <ul>
+            <li><strong>READ_EXTERNAL_STORAGE</strong> (Android 12 and below) - Required to access images from device storage</li>
+            <li><strong>WRITE_EXTERNAL_STORAGE</strong> (Android 12 and below) - Required to save processed images to gallery</li>
+            <li><strong>READ_MEDIA_IMAGES</strong> (Android 13+) - Required to access images using modern scoped storage</li>
+            <li><strong>INTERNET</strong> - Required for loading advertisements and sending analytics data</li>
+            <li><strong>ACCESS_NETWORK_STATE</strong> - Required to check network connectivity for ad loading</li>
+        </ul>
+        <p><strong>Permission Usage:</strong> Storage permissions are used exclusively for image selection and saving processed images. Network permissions are used only for advertisement delivery and anonymous analytics.</p>
+    </div>
+    
+    <div class="section">
+        <h2>3. Data Categories and Purposes</h2>
+        <h3>3.1 Data Types Collected</h3>
+        <ul>
+            <li><strong>Device Information:</strong> Device model, operating system version, screen resolution</li>
+            <li><strong>Usage Data:</strong> App launches, screen views, feature usage (compression, format conversion, resizing)</li>
+            <li><strong>Diagnostics:</strong> Crash reports, performance metrics, error logs</li>
+            <li><strong>Advertising Interactions:</strong> Ad impressions, clicks, rewarded ad completions</li>
+        </ul>
+        
+        <h3>3.2 Data Purposes</h3>
+        <ul>
+            <li><strong>Advertising Delivery and Frequency Control:</strong> Display ads through TopOn SDK, manage ad frequency to prevent over-exposure</li>
+            <li><strong>Anonymous Analytics:</strong> Understand app usage patterns, improve user experience through Firebase Analytics</li>
+            <li><strong>App Functionality:</strong> Ensure core features work correctly, diagnose and fix issues via Firebase Crashlytics</li>
+            <li><strong>Performance Monitoring:</strong> Track app performance metrics via Firebase Performance</li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>4. Data Processing Location and Association</h2>
+        <h3>4.1 Local Processing</h3>
+        <p><strong>Image Processing:</strong> All image compression, format conversion, and resizing operations occur entirely on your device. No image data is uploaded to any server or cloud service.</p>
+        
+        <h3>4.2 Cloud Processing (Non-Image Data)</h3>
+        <ul>
+            <li><strong>Analytics Data:</strong> Usage statistics, crash reports, and performance metrics are sent to Firebase servers (Google Cloud Platform)</li>
+            <li><strong>Advertising Data:</strong> Ad requests and interactions are processed by TopOn SDK and ad network partners</li>
+        </ul>
+        
+        <h3>4.3 Personal Identity Association</h3>
+        <p>Analytics and advertising data are collected anonymously and are not associated with your personal identity, email address, or other personally identifiable information. Image processing data never leaves your device.</p>
+        
+        <h3>4.4 Cross-App Tracking</h3>
+        <p>Advertising identifiers may be used for advertising personalization across apps. You can opt-out of personalized advertising in your device settings.</p>
+    </div>
+    
+    <div class="section">
+        <h2>5. Third-Party SDKs</h2>
+        <p>The following third-party SDKs are integrated into the app:</p>
+        
+        <h3>5.1 Advertising SDKs</h3>
+        <ul>
+            <li><strong>TopOn SDK (v6.5.36)</strong> - Ad mediation platform
+                <br>Publisher: ThinkUp Technologies Limited
+                <br>Privacy Policy: <a href="https://docs.toponad.com/docs/privacy-policy" target="_blank">https://docs.toponad.com/docs/privacy-policy</a>
+            </li>
+            <li><strong>Google AdMob</strong> - Advertising network
+                <br>Publisher: Google LLC
+                <br>Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a>
+            </li>
+            <li><strong>Meta Audience Network</strong> - Advertising network
+                <br>Publisher: Meta Platforms, Inc.
+                <br>Privacy Policy: <a href="https://www.facebook.com/privacy/policy" target="_blank">https://www.facebook.com/privacy/policy</a>
+            </li>
+            <li><strong>Unity Ads</strong> - Advertising network
+                <br>Publisher: Unity Technologies
+                <br>Privacy Policy: <a href="https://unity.com/legal/privacy-policy" target="_blank">https://unity.com/legal/privacy-policy</a>
+            </li>
+        </ul>
+        
+        <h3>5.2 Analytics and Attribution SDKs</h3>
+        <ul>
+            <li><strong>Firebase Analytics</strong> - Usage analytics
+                <br>Publisher: Google LLC
+                <br>Privacy Policy: <a href="https://firebase.google.com/support/privacy" target="_blank">https://firebase.google.com/support/privacy</a>
+            </li>
+            <li><strong>Firebase Crashlytics</strong> - Crash reporting
+                <br>Publisher: Google LLC
+                <br>Privacy Policy: <a href="https://firebase.google.com/support/privacy" target="_blank">https://firebase.google.com/support/privacy</a>
+            </li>
+            <li><strong>Firebase Performance</strong> - Performance monitoring
+                <br>Publisher: Google LLC
+                <br>Privacy Policy: <a href="https://firebase.google.com/support/privacy" target="_blank">https://firebase.google.com/support/privacy</a>
+            </li>
+            <li><strong>Firebase Remote Config</strong> - Feature flags and A/B testing
+                <br>Publisher: Google LLC
+                <br>Privacy Policy: <a href="https://firebase.google.com/support/privacy" target="_blank">https://firebase.google.com/support/privacy</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>6. User Consent and Controls</h2>
+        <h3>6.1 Consent Mechanisms</h3>
+        <ul>
+            <li><strong>GDPR/UMP Consent:</strong> For users in the European Economic Area (EEA) and United Kingdom, we implement Google's User Messaging Platform (UMP) to obtain consent for personalized advertising where required</li>
+            <li><strong>iOS ATT:</strong> Not applicable (Android-only app)</li>
+        </ul>
+        
+        <h3>6.2 Advertising Preferences</h3>
+        <p>You can control advertising personalization:</p>
+        <ul>
+            <li>Opt-out of personalized ads in Android Settings → Google → Ads → Reset advertising ID</li>
+            <li>Disable ads by purchasing the ad-free version (if available)</li>
+        </ul>
+        
+        <h3>6.3 Withdrawal and Reset</h3>
+        <ul>
+            <li><strong>Reset Advertising ID:</strong> Android Settings → Google → Ads → Reset advertising ID</li>
+            <li><strong>Disable Analytics:</strong> Contact us to request analytics data deletion</li>
+            <li><strong>App Deletion:</strong> Uninstalling the app removes all local data. Cloud analytics data retention follows Firebase policies.</li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>7. Data Sharing, Retention, and Security</h2>
+        <h3>7.1 Data Sharing</h3>
+        <p>We share data with:</p>
+        <ul>
+            <li><strong>Google (Firebase):</strong> Analytics, crash reports, performance metrics</li>
+            <li><strong>TopOn SDK and Ad Networks:</strong> Advertising identifiers and interaction data for ad delivery</li>
+            <li><strong>No Image Data:</strong> Image files are never shared or uploaded</li>
+        </ul>
+        
+        <h3>7.2 Data Retention</h3>
+        <ul>
+            <li><strong>Local Data:</strong> Processed images stored on device remain until manually deleted</li>
+            <li><strong>Analytics Data:</strong> Firebase Analytics data is retained according to Google's data retention policies (typically 14 months)</li>
+            <li><strong>Crash Reports:</strong> Firebase Crashlytics retains crash data for up to 90 days</li>
+        </ul>
+        
+        <h3>7.3 Security Measures</h3>
+        <ul>
+            <li><strong>Encryption:</strong> Image processing uses Android's secure file handling APIs</li>
+            <li><strong>Sandboxing:</strong> App operates within Android's application sandbox with limited permissions</li>
+            <li><strong>Minimal Permissions:</strong> App requests only necessary permissions for core functionality</li>
+            <li><strong>No Backend Storage:</strong> No image data is stored on remote servers</li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>8. Regional Compliance and User Rights</h2>
+        <h3>8.1 GDPR (European Economic Area)</h3>
+        <p>If you are located in the EEA, you have the right to:</p>
+        <ul>
+            <li>Access your personal data</li>
+            <li>Rectify inaccurate data</li>
+            <li>Erase your data ("right to be forgotten")</li>
+            <li>Restrict processing</li>
+            <li>Data portability</li>
+            <li>Object to processing</li>
+            <li>Withdraw consent</li>
+        </ul>
+        
+        <h3>8.2 CCPA/CPRA (California, USA)</h3>
+        <p>California residents have the right to:</p>
+        <ul>
+            <li>Know what personal information is collected</li>
+            <li>Delete personal information</li>
+            <li>Opt-out of sale of personal information</li>
+            <li>Non-discrimination for exercising rights</li>
+        </ul>
+        
+        <h3>8.3 Exercising Your Rights</h3>
+        <p>To exercise any of these rights, please contact us using the contact information provided in Section 9.</p>
+    </div>
+    
+    <div class="section">
+        <h2>9. Contact Information</h2>
+        <div class="contact">
+            <p><strong>Email:</strong> privacy@piczip.in</p>
+            <p><strong>App Package:</strong> com.shimeimei.piczip</p>
+            <p>For privacy-related inquiries, data access requests, or to exercise your rights, please contact us at the email above. We will respond within 30 days of receipt.</p>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>10. Core Privacy Statement</h2>
+        <div class="highlight">
+            <p><strong>Local Processing Default:</strong> All image compression, format conversion, and resizing operations are performed entirely on your device. No image data is uploaded to remote servers.</p>
+            <p><strong>No Cloud Image Processing:</strong> If cloud-based image processing features are added in the future, we will provide explicit notification and obtain your consent before enabling such features.</p>
+            <p><strong>Opt-In for Cloud Features:</strong> Any cloud functionality will be opt-in only, clearly disclosed, and can be disabled at any time in app settings.</p>
+        </div>
+    </div>
+    
+    <hr style="margin: 40px 0; border: none; border-top: 1px solid #e0e0e0;">
+    <p><small>© 2025 PicZip IN. All rights reserved.</small></p>
+    <p><small>This privacy policy may be updated from time to time. We will notify users of significant changes through in-app notifications or app store updates.</small></p>
+</body>
+</html>
