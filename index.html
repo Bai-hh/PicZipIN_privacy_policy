@@ -108,13 +108,13 @@
         <h2>2. Runtime Permissions</h2>
         <p>The app requests the following permissions:</p>
         <ul>
-            <li><strong>READ_EXTERNAL_STORAGE</strong> (Android 12 and below) - Required to access images from device storage</li>
-            <li><strong>WRITE_EXTERNAL_STORAGE</strong> (Android 12 and below) - Required to save processed images to gallery</li>
-            <li><strong>READ_MEDIA_IMAGES</strong> (Android 13+) - Required to access images using modern scoped storage</li>
-            <li><strong>INTERNET</strong> - Required for loading advertisements and sending analytics data</li>
-            <li><strong>ACCESS_NETWORK_STATE</strong> - Required to check network connectivity for ad loading</li>
+            <li><strong>Android Photo Picker</strong> (Android 13+): Uses the system photo picker to select images without requesting storage permissions</li>
+            <li><strong>READ_EXTERNAL_STORAGE</strong> (Android 12 and below): Required to access images from device storage</li>
+            <li><strong>WRITE_EXTERNAL_STORAGE</strong> (Android 12 and below): Required to save processed images to gallery</li>
+            <li><strong>INTERNET</strong>: Required for loading advertisements and sending analytics data</li>
+            <li><strong>ACCESS_NETWORK_STATE</strong>: Required to check network connectivity for ad loading</li>
         </ul>
-        <p><strong>Permission Usage:</strong> Storage permissions are used exclusively for image selection and saving processed images. Network permissions are used only for advertisement delivery and anonymous analytics.</p>
+        <p><strong>Permission Usage:</strong> On Android 13 and above, the app relies on the system Photo Picker and does not request storage permissions. On Android 12 and below, storage permissions are used exclusively for selecting images and saving processed images. Network permissions are used only for advertisement delivery and anonymous analytics.</p>
     </div>
     
     <div class="section">
